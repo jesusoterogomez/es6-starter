@@ -1,0 +1,105 @@
+/**********************************************************
+    
+    - variables.scss (partial)
+
+    Collection of SASS Variables to be used
+    Across the whole application. (global scoped)
+
+    Ideally, any change on the global values should be 
+    performed in this file instead of changing properties
+    on specific elements or selectors.
+
+    - Index - (Seach for 'n:' to navigate to section)
+    
+    1. - Font Settings
+    2. - Color Schemes
+    3. - Grayscale
+    4. - Text Colors
+    5. - Spacing & Sizing
+    6. - Breakpoints
+    7. - Animations
+
+**********************************************************/
+
+
+/** 1: Font Settings
+=========================================================*/
+
+// Global Font Family
+$lato: 'Lato', sans-serif;
+
+/** 2: Color Scheme
+=========================================================*/
+
+// White Color
+$color-white: #FFFFFF; // White
+
+// Main Highlight Color
+$color-highlight: #55CA92; //Turquoise
+
+/** 3: Grayscale
+=========================================================*/
+
+// Gray Light
+$gray-light: #EEEEEE;
+
+// Gray Medium
+$gray-medium: #CCCCCC;
+
+// Gray Dark
+$gray-dark: #999999;
+
+// Gray Dark
+$gray-border: #DDDDDD;
+
+/** 4: Text Colors
+=========================================================*/
+
+// Light Text Color
+$text-light: #CCCCCC;
+
+// Medium Text Color
+$text-medium: #888888;
+
+// Dark Text Color
+$text-dark:  #333333;
+
+/** 5: Spacing & Sizing
+=========================================================*/
+
+// Content Width in Default Mode (desktop).
+// Every view has a .content element which
+// uses this style to keep the application's
+// content centered in the view.
+$content-width: 95%;
+
+// Default Padding for Elements
+$default-padding: 1em;
+
+// Default Margin Between Elements
+$default-margin: 1em;
+
+// Default Border Radius for Elements
+$default-radius: 3px;
+
+/** 6: Breakpoints
+=========================================================*/
+
+// Small Breakpoint for Media Queries
+// Mobile Size (~400px)
+$break-small:  480px; 
+
+// Medium Breakpoint for Media Queries
+// Tablet Size (~600px)
+$break-medium: 768px;
+
+// Large Breakpoint for Media Queries
+// Desktop Size (~1400px)
+$break-large:  1200px;
+
+
+/** 7: Animations
+=========================================================*/
+
+// Default Transition Duration
+$default-duration: 0.3s;

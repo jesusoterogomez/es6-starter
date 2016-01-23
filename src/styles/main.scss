@@ -1,0 +1,48 @@
+/**********************************************************
+
+    - main.scss
+
+    Point of entry for the SASS compiler. This file must
+    import all other files required in the application.
+
+    Partials are denoted with the _file.scss convention.
+
+    1. - Imports
+    2. - Default Styling
+
+**********************************************************/
+
+
+/** 1: Imports
+=========================================================*/
+
+@import "./fonts"; // Imports CSS Fonts, such as Google fonts
+@import "./normalize"; // Normalizes CSS for a Browser Compatible CSS Baseline
+@import "./mixins";
+@import "./variables";
+
+/** 1: Default Styling
+=========================================================*/
+
+body {
+    font-family: $lato;
+    background: $gray-light;
+    width: 100%;
+}
+
+.content {
+    margin: $default-margin;
+    padding: $default-padding;
+    background: $color-white;
+    border-radius: $default-radius;
+    text-align: center;
+    border: 1px solid $gray-border;
+}
+
+.content-header {
+    border-bottom: 1px solid $gray-border;
+    h1 {
+        text-transform: uppercase;
+    }
+}
+

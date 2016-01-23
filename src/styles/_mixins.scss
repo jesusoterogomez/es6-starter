@@ -1,0 +1,7 @@
+@mixin transition($duration) {
+    transition: all $duration ease;
+}
+
+@mixin border($color) {
+    border: 1px solid $color;
+}
