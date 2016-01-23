@@ -1,0 +1,31 @@
+{
+  "name": "web-es6-template",
+  "version": "0.0.1",
+  "description": "Template for web apps with build optimizations",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp clean && gulp serve",
+    "build": "gulp clean && gulp build:prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
+    "es6-promise": "^3.0.2",
+    "gulp-babel": "^6.1.1",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-usemin": "^0.3.20",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0",
+    "wiredep": "^3.0.0"
+  }
+}
