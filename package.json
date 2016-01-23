@@ -4,6 +4,7 @@
   "description": "Template for web apps with build optimizations",
   "main": "index.js",
   "scripts": {
+    "postinstall": "bower install",
     "start": "gulp clean && gulp serve",
     "build": "gulp clean && gulp build:prod"
   },
@@ -13,6 +14,7 @@
     "babel": "^6.3.26",
     "babel-preset-es2015": "^6.3.13",
     "babelify": "^7.2.0",
+    "bower": "^1.7.2",
     "browserify": "^13.0.0",
     "del": "^2.2.0",
     "es6-promise": "^3.0.2",
