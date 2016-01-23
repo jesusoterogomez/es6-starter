@@ -1,7 +1,7 @@
 # Sublime
 .sublime*
 
-# npm
+# NPM
 npm-debug.log
 node_modules
 
