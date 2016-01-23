@@ -1,0 +1,22 @@
+{
+  "name": "web-es6-boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "Jesús Otero <jesusoterogomez@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "~4.5.0",
+    "jquery": "~2.2.0"
+  }
+}
