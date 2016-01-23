@@ -7,8 +7,7 @@ var del = require('del');
 // @see: https://github.com/ai/browserslist
 var browsers = [
     "> 2%",
-    "Last 2 versions",
-    "IE 8" // sorry
+    "Last 2 versions"
 ];
 
 var options = {
