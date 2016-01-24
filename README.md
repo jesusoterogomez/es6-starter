@@ -1,21 +1,17 @@
 # Web ES6 Template
 
+This template is aimed towards people in need of a solid development environment to create single page websites. It has a useful set of gulp tasks that will make developing a website a much frictionless process, such as auto reloading on source code changes, and generation of a deployment version with several optimizations to keep your website lightweight and compatible.
+
+You can also use ES6 - ES2015 Javascript and have it automatically transpiled to ES5 Javascript automatically. Write the scripts for your website using the modern language features.
+
 ## Table of contents
-1. [Features](#introduction)
+1. [Features](#features)
 2. [Installation](#installation)
 3. [Running Development Server](#server)
 4. [Building Deployable](#build)
 5. [Usage Guide](#usage)
 
-
-## Introduction <a name="introduction"></a>
-
-### What can I use it for?
-This template is aimed towards people in need of a solid development environment to create single page websites. It has a useful set of gulp tasks that will make developing a website a much frictionless process, such as auto reloading on source code changes, and generation of a deployment version with several optimizations to keep your website lightweight and compatible.
-
-You can also use ES6 - ES2015 Javascript and have it automatically transpiled to ES5 Javascript automatically. Write the scripts for your website using the modern language features.
-
-### Features
+### Features <a name="features"></a>
 
 This template contains several build improvements and development features that will make kickstarting your website a breeze.
 
