@@ -6,7 +6,8 @@
   "scripts": {
     "postinstall": "bower install",
     "start": "gulp clean && gulp serve",
-    "build": "gulp clean && gulp build:prod"
+    "build": "gulp clean && gulp build:prod",
+    "bower": "bower"
   },
   "author": "",
   "license": "ISC",
